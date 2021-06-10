@@ -1,0 +1,123 @@
+section #main {
+  width: 990px;
+  margin:auto;
+}
+section #right {
+  width: 600px;
+  height:330px;
+  margin:150px 0 0 0;
+  float:right;
+
+}
+section #right li {
+  display: inline;
+  margin:0 0 0 5px;
+
+}
+section #right_vid {
+  float:right;
+  width:800px;
+  height:600px;
+  margin: 30px 0 0 0;
+}
+
+section #left {
+  float:left;
+  width:300px;
+  height:200px;
+  margin: 150px 0 0 0;
+}
+
+section #left_vid {
+  float:left;
+  width:800px;
+  height:600px;
+  margin: 30px 0 0 0;
+}
+
+section #right_exp {
+  margin-top:300px;
+  width:100px;
+  height:200px;
+  float:right;
+
+}
+section #right_exp p {
+  width:100px;
+  height:200px;
+  font-size:25px;
+  font-family:"나눔스퀘어라운드";
+}
+
+
+section #right img {
+  width:192px;
+  height:108px;
+
+}
+
+section #left h1 {
+  font-weight:bold;
+  font-size:50px;
+  font-family:"나눔바른고딕";
+}
+section #left p {
+  margin-top:30px;
+  font-size:15px;
+  font-family:"나눔바른고딕";
+}
+
+section #left_exp {
+  margin-top:330px;
+  width:100px;
+  height:200px;
+  float:left;
+
+}
+section #left_exp p {
+  width:100px;
+  height:200px;
+  font-size:25px;
+  font-family:"나눔스퀘어라운드";
+}
+
+
+section #left_img {
+  float:left;
+  width:990px;
+  height:400px;
+  margin:180px 0 0 0;
+
+}
+section #left_img img {
+  width:450px;
+  height:300px;
+}
+section #left_img li {
+  display:inline;
+  margin:50px 0 30px 30px;
+
+}
+section #left_img_draw {
+  float:left;
+  width:990px;
+  height:400px;
+  margin:180px 0 0 0;
+
+}
+section #left_img_draw img {
+  width:700px;
+  height:1000px;
+}
+
+section #left_img_draw img.gimal {
+  width:700px;
+  height:500px;
+  margin-top:30px;
+}
+
+
+footer {
+  height:200px;
+  margin-top:2000px;
+}

@@ -1,0 +1,150 @@
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  font-family:"나눔스퀘어라운드", "나눔바른고딕";
+  font-size:12px;
+  color:#444444;
+  background-color:white;
+}
+#wrap {
+  width:990px;
+  margin:0 auto;
+}
+ul {
+  list-style-type:none;
+}
+a:link, a:visited, a:hover, a:active {
+  text-decoration:none;
+  color:#444444;
+}
+.clear {
+  clear:both;
+}
+
+
+header {
+  height:80px;
+
+}
+header #top {
+  width:990px;
+  margin:0 auto;
+}
+header #logo {
+
+  margin:30px 0 0 130px;
+}
+header #top_menu {
+
+  margin-top:45px;
+}
+header #top_menu a:link {
+  font-size:15px;
+  color:black;
+}
+header #top_menu a:visited {
+  font-size:15px;
+  color:black;
+}
+header #top_menu a:hover {
+  font-size:15px;
+  color:black;
+}
+header #top_menu a:active {
+  font-size:15px;
+  color:black;
+}
+header #top_menu li.me {
+  float:right;
+  margin-top:2px;
+}
+header #top_menu li.me a:link {
+  color:#26ADE4;
+}
+header #top_menu li.me a:visited {
+  color:#26ADE4;
+}
+header #top_menu li.me a:hover {
+  color:#26ADE4;
+}
+header #top_menu li.me a:active {
+  color:#26ADE4;
+}
+header #top_menu li {
+  display:inline;
+  margin-left:80px;
+
+}
+header #drop li {
+  color:white;
+  margin:0 auto;
+  display:block;
+}
+
+header #menu {
+
+		height:50px;
+		line-height:40px;
+
+
+	}
+  #menu > ul > li  {
+
+  float:left;
+  width:50px;
+  position:relative;
+  text-align:center;
+  }
+	#menu > ul > li > ul {
+
+		width:120px;
+    height:90px;
+    display:none;
+    background:#4DBCE9;
+		position:absolute;
+    text-align:center;
+	}
+  #menu > ul > li:hover > ul {
+    display:block;
+  }
+
+footer {
+  height:200px;
+  margin-top:300px;
+}
+footer #footer_menu_box {
+  height:40px;
+  background-color:#D1E751;
+}
+footer #footer_menu {
+  width:990px;
+  margin:0 auto;
+  padding-top:15px;
+  color:white;
+}
+footer #footer_menu ul {
+  margin-left:210px;
+}
+footer #footer_menu li {
+  display:inline;
+  margin-left:20px;
+}
+
+footer #footer_box {
+  width:990px;
+  margin:20px 0 0 0;
+}
+footer #footer_box div {
+  float:left;
+}
+footer #footer_box #footer_logo {
+  margin:20px 0 0 10px;
+}
+footer #footer_box #address {
+  margin:25px 0 0 30px;
+}
+footer #footer_box #footer_banner {
+  margin:25px 0 0 400px;
+}
